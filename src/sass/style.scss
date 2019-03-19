@@ -1,0 +1,67 @@
+@import "variables";
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+@import "bootstrap/bootstrap.scss";
+@import "fontawesome/fontawesome";
+@import "fontawesome/solid";
+@import "fontawesome/brands";
+@import "fontawesome/regular";
+
+@import "components/header";
+@import "components/footer";
+
+@import "components/button";
+@import "components/feature-box";
+@import "components/panel-bar";
+@import "components/post-box";
+@import "components/product-box";
+
+@import "components/section--features";
+@import "components/section--sale";
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.section--feetback {
+  margin-bottom: 30px;
+  .post-info {
+    text-align: center;
+    img {
+      font-size: 50px;
+      margin-bottom: 20px;
+    }
+    h4 {
+      font-size: 20px;
+      margin: 0 40px;
+      padding: 0 25px;
+      text-align: center;
+    }
+  }
+  .photo-client {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+
+    img {
+      width: 4rem;
+      height: 4rem;
+    }
+  }
+  .post-client {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    .info_client {
+      margin-top: 12px;
+      h4 {
+        font-size: 0.9rem;
+        font-weight: 600;
+        padding-left: 0;
+        padding-top: 0;
+        margin-left: 0;
+        line-height: 0.8rem;
+      }
+    }
+  }
+}
